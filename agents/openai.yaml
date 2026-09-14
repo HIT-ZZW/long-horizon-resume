@@ -1,0 +1,6 @@
+interface:
+  display_name: "Long Horizon Resume"
+  short_description: "Resume long Codex tasks across usage resets"
+  default_prompt: "Use $long-horizon-resume to run this task with durable checkpoints and safe continuation across usage-window resets."
+policy:
+  allow_implicit_invocation: false
